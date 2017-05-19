@@ -1,3 +1,4 @@
+" Installed from https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 syntax enable
 set ruler
@@ -11,9 +12,12 @@ set showcmd
 filetype indent on
 set wildmenu
 set lazyredraw
+
 set colorcolumn=80
 "highlight ColorColumn ctermbg=0
+
 " Color scheme
+" Using Solarized from https://github.com/altercation/solarized
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
